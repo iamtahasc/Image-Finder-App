@@ -108,13 +108,13 @@ header h1 {
     max-width: 100%;
 }
 
+#viewMoreBtn:hover {
+    background-color: #0056b3;
+}
+
 @media (max-width: 768px) {
     header h1 {
         font-size: 2rem;
-    }
-
-    #loader{
-        width: 20%;
     }
 
     .search-container input,
@@ -135,18 +135,17 @@ header h1 {
         font-size: 1.6rem;
     }
 
-    #loader{
-        width: 20%;
-    }
-
     .search-container {
         flex-direction: column;
-        align-items: stretch;
+        align-items: center; /* Center everything */
     }
 
-    .search-container input,
+    .search-container input {
+        width: 90%;
+    }
+
     .search-container button {
-        width: 100%;
+        width: 90%;
     }
 
     #viewMoreBtn {
@@ -161,9 +160,5 @@ header h1 {
         width: 100%;
         font-size: 13px;
         padding: 8px 12px;
-    }
-
-    #loader{
-        width: 20%;
     }
 }
