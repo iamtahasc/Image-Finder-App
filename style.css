@@ -58,7 +58,7 @@ header h1 {
 #loader {
     display: none;
     margin: auto;
-    width: 6%;
+    width: 10%;
     justify-content: center;
     align-items: center;
 }
@@ -113,6 +113,10 @@ header h1 {
         font-size: 2rem;
     }
 
+    #loader{
+        width: 20%;
+    }
+
     .search-container input,
     .search-container button {
         font-size: 0.95rem;
@@ -129,6 +133,10 @@ header h1 {
 @media (max-width: 480px) {
     header h1 {
         font-size: 1.6rem;
+    }
+
+    #loader{
+        width: 20%;
     }
 
     .search-container {
@@ -153,5 +161,9 @@ header h1 {
         width: 100%;
         font-size: 13px;
         padding: 8px 12px;
+    }
+
+    #loader{
+        width: 20%;
     }
 }
