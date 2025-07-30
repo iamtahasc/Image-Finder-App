@@ -58,7 +58,7 @@ header h1 {
 #loader {
     display: none;
     margin: auto;
-    width: 10%;
+    width: 6%;
     justify-content: center;
     align-items: center;
 }
@@ -108,10 +108,6 @@ header h1 {
     max-width: 100%;
 }
 
-#viewMoreBtn:hover {
-    background-color: #0056b3;
-}
-
 @media (max-width: 768px) {
     header h1 {
         font-size: 2rem;
@@ -137,15 +133,12 @@ header h1 {
 
     .search-container {
         flex-direction: column;
-        align-items: center; /* Center everything */
+        align-items: stretch;
     }
 
-    .search-container input {
-        width: 90%;
-    }
-
+    .search-container input,
     .search-container button {
-        width: 90%;
+        width: 100%;
     }
 
     #viewMoreBtn {
